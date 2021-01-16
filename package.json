@@ -1,0 +1,10 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Daniel Otaviano <danielpontes0@icloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ngrok": "^3.4.0"
+  }
+}

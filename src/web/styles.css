@@ -1,12 +1,14 @@
 body, html {
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 #content {
   height: 100%;
   width: 100%;
   display: flex;
+  flex-direction:column;
   align-items: center;
   justify-content: center;
 }
@@ -14,4 +16,8 @@ body, html {
 #screen {
   width: 550px;
   height: 550px;
+  border: 5px solid #ccc;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
 }

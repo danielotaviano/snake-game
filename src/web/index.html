@@ -9,10 +9,17 @@
 </head>
 
 <body>
+
   <div id="content">
-    <canvas id="screen" width="10" height="10" style="border: 5px solid #ccc"></canvas>
+    <div id="score">Pontuação: 0</div>
+    <canvas id="screen"></canvas>
   </div>
 
+  <script src="script.js"></script>
+  <script>
+    game.init('screen', 30, 30)
+    const test = game.start_game()
+  </script>
 </body>
 
 </html>
